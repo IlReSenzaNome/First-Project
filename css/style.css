@@ -5,7 +5,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-image: linear-gradient(150 #AF0404, #AF0404);
+    background-color: #1B262C;
 }
 
 /* Header */
@@ -17,19 +17,19 @@ body {
 .header h1 {
     font-size: 2.9em;
     margin-bottom: 5px;
-    color: #FF0000; 
+    color: #0F4C57; 
 }
 
 .header p {
     font-size: 1.1em;
     margin-bottom: 15px;
-    color: #FF0000;
+    color: #0F4C57;
 }
 
 /* body */
 .container {    
     margin: 1px auto;
-    border: 6px solid #AF0404;
+    border: 1px solid #3282B8;
     text-align: center;
     padding: 10px;
     width: 50%;
@@ -37,21 +37,20 @@ body {
 
 .information input {
     display: block;
-    height: 100%;
     width: 100%;
     text-align: left;
-    margin-bottom: 15px;
-    padding: 1.1% 0.1%;
-    background-color: black;
-    color: wheat;
+    padding: 0.625em 0.125em;
+    background-color: #1B262C;
+    color: #414141;
     border-radius: 2px;
-    border: #FF0000 solid 2px;
+    border: #3282B8 solid 2px;
+    margin-bottom: 15px;
 }
 
 .information {
     text-align: left;
-    color: wheat;
-    margin-bottom: 15px;
+    color: #414141;
+    margin: 5px 5px;
 }
 
 .option-role label, 
@@ -60,21 +59,20 @@ body {
     height: 100%;
     width: 100%;
     text-align: left;
-    color: wheat;
+    color: #414141;
     padding-bottom: 5px;
 }
 
 .option-role select, 
 .favorite-option select {
     display: block;
-    height: 100%;
     width: 100%;
     text-align: left;
-    color: wheat;
+    color: #414141;
     background-color: black;
     border-radius: 2px;
     border: #FF0000 solid 2px;
-    padding: 1.1% 0.1%;
+    padding: 0.625em 0.125em;
 }
 
  
