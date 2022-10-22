@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>First Proyect</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" href="/img/icon.ico">
+</head>
+<body> 
+  <div class="header" id="first">
+    <header>
+      <h1 id="title" class="text-center">My Survey Form</h1>
+      <p id="description" class="text-description">Thank you for taking the time to help solve this survey.</p>
+    </header>
+  </div> 
+  <div class="container">
+      <form action="#" id="survey-form">
+        <div class="information">
+          <label for="name" id="name-label">Name</label> 
+            <input type="text" id="name"  placeholder="Enter your name" required>
+          <label for="email" id="email-label">Email</label> 
+            <input type="email" id="email" placeholder="Enter your Email" required>
+          <label for="number" id="number-label">Age(optional)</label> 
+            <input type="number" min="11" max="99" id="number" placeholder="Age">
+        </div>
+        <div class="option-role">
+          <label for="list" id="list">Which option best describes your current role?</label>
+            <select id="dropdown" name="role" class="form-control" required="">
+              <option disabled="" selected="" value="" id="text-disaible">Select current role</option>
+              <option value="student">Student</option>
+              <option value="job">Full Time Job</option>
+              <option value="learner">Full Time Learner</option>
+              <option value="preferNo">Prefer not to say</option>
+              <option value="other">Other</option>
+            </select>
+        </div>
+        <div class="radio-button">
+          <label class="list-radio" for="definitely">Would you recommend freeCodeCamp to a friend?
+            <input id="definitely" value="definitely" name="recomendation" type="radio"> Definitely</label> 
+          <label class="list-radio" for="maybe">
+            <input id="maybe" value="maybe" name="recomendation" type="radio"> Maybe</label>  
+          <label class="list-radio" for="not-sure">
+            <input id="not-sure" value="not-sure" name="recomendation" type="radio"> Not sure</label>  
+        </div>
+        <div class="favorite-option">
+          <label for="second-dropdown">What is your favorite feature of freeCodeCamp?</label> 
+            <select name="List2" id="second-dropdown" class="form-control" required="">
+              <option disabled="" selected="" value="" id="text-disaible2">Select an option</option>
+              <option value="1">Callenges</option>
+              <option value="2">Projects</option>
+              <option value="3">Community</option>
+              <option value="4">Open Source</option>
+            </select>
+        </div>
+        <div class="checklist-button">
+          <label class="parragraf">What would you like to see improved? (Check all that apply)</label>
+            <label for="front-end" class="list-checkbox">
+              <input value="front-end" type="checkbox" name="option1" id="front-end"> Front-end Projects</label> 
+            <label for="back-end" class="list-checkbox">
+              <input value="back-end" type="checkbox" name="option2" id="back-end"> Back-end Projects</label> 
+            <label for="data-visualization" class="list-checkbox">
+              <input value="data-visualization" type="checkbox" name="option3" id="data-visualization"> Data Visualization</label> 
+            <label for="challenges" class="list-checkbox">  
+              <input value="challenges" type="checkbox" name="option4" id="challenges"> Challenges</label> 
+            <label for="open-source" class="list-checkbox">
+              <input value="open-source" type="checkbox" name="option5" id="open-source"> Open Source Community</label> 
+            <label for="gitter" class="list-checkbox">
+              <input value="gitter" type="checkbox" name="option6" id="gitter"> Gitter help rooms</label> 
+            <label for="videos" class="list-checkbox"> 
+              <input value="videos" type="checkbox" name="option7" id="videos"> Videos</label> 
+            <label for="city" class="list-checkbox">
+              <input value="city" type="checkbox" name="option8" id="city"> City Meetups</label> 
+            <label for="wiki" class="list-checkbox">
+              <input value="wiki" type="checkbox" name="option9" id="wiki"> Wiki</label> 
+            <label for="forum" class="list-checkbox">
+              <input value="forum" type="checkbox" name="option10" id="forum"> Forum</label> 
+            <label for="courses" class="list-checkbox">
+              <input value="courses" type="checkbox" name="option11" id="courses"> Additional Courses</label> 
+        </div>
+        <div class="textarea">
+          <label for="text">Any comments or suggestions?</label>
+            <textarea name="textarea" id="text" cols="30" rows="10" placeholder="Enter your comment here..."></textarea>
+        </div>
+        <input id="submit" type="submit" value="Submit">
+      </form>
+      <div class="footer">
+        <footer>
+            <p id="copy">&copy; No Copyright - All Rights Reserved</p>
+        </footer>
+      </div>
+  </div>
+</body>
+</html>

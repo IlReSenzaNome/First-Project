@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(150 #AF0404, #AF0404);
+}
+
+/* Header */
+.header {
+    font-weight: bold;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2.9em;
+    margin-bottom: 5px;
+    color: #FF0000; 
+}
+
+.header p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    color: #FF0000;
+}
+
+/* body */
+.container {    
+    margin: 1px auto;
+    border: 6px solid #AF0404;
+    text-align: center;
+    padding: 10px;
+    width: 50%;
+}
+
+.information input {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 15px;
+    padding: 1.1% 0.1%;
+    background-color: black;
+    color: wheat;
+    border-radius: 2px;
+    border: #FF0000 solid 2px;
+}
+
+.information {
+    text-align: left;
+    color: wheat;
+    margin-bottom: 15px;
+}
+
+.option-role label, 
+.favorite-option label {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    color: wheat;
+    padding-bottom: 5px;
+}
+
+.option-role select, 
+.favorite-option select {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    color: wheat;
+    background-color: black;
+    border-radius: 2px;
+    border: #FF0000 solid 2px;
+    padding: 1.1% 0.1%;
+}
+
+ 
+
+/* Footer */
+#copy {
+    font-size: 12px;
+    width: 1px auto;
+    height: 20px auto;
+    background-color: rgba(127, 127, 222, 0.5);
+    margin: auto;
+}
