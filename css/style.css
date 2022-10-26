@@ -1,3 +1,4 @@
+/* Setting the margin and padding to 0. */
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +9,7 @@ body {
     background-color: #1B262C;
 }
 
-/* Header */
+/* Styling the header. */
 .header {
     font-weight: bold;
     text-align: center;
@@ -30,27 +31,26 @@ body {
 .container {    
     margin: 1px auto;
     border: 1px solid #3282B8;
-    text-align: center;
     padding: 10px;
-    width: 50%;
+    width: 60%;
 }
 
 .information input {
     display: block;
-    width: 100%;
+    width: 98%;
     text-align: left;
     padding: 0.625em 0.125em;
     background-color: #1B262C;
-    color: #414141;
+    color: #BBE1FA;
     border-radius: 2px;
     border: #3282B8 solid 2px;
-    margin-bottom: 15px;
 }
 
 .information {
     text-align: left;
-    color: #414141;
+    color: #BBE1FA;
     margin: 5px 5px;
+    width: 100%;
 }
 
 .option-role label, 
@@ -59,8 +59,8 @@ body {
     height: 100%;
     width: 100%;
     text-align: left;
-    color: #414141;
-    padding-bottom: 5px;
+    color: #BBE1FA;
+    padding-bottom: 5px 5px;
 }
 
 .option-role select, 
@@ -68,16 +68,58 @@ body {
     display: block;
     width: 100%;
     text-align: left;
-    color: #414141;
-    background-color: black;
+    color: #BBE1FA;
+    background-color: #1B262C;
     border-radius: 2px;
-    border: #FF0000 solid 2px;
+    border: #3282B8 solid 2px;
     padding: 0.625em 0.125em;
 }
 
- 
+.parragraf {
+    display: block;
+    width: 100%;
+    color: #BBE1FA;
+    margin: 5px 5px;
+    padding: 5px 5px;
+}
 
-/* Footer */
+.radio-button label {
+    display: block;
+    width: 100%;
+    padding: 5px 5px;
+}
+
+
+.textarea label {
+    display: block;
+    font-size: large; 
+    color: #BBE1FA;
+    text-align: center;
+}   
+ 
+.textarea textarea {
+    display: block; 
+    background-color: #1B262C;
+    border-radius: #3282B8 solid 2px;
+    color: #BBE1FA;
+    font-weight: 500;
+    width: 100%;
+    font-size: 1.1rem;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 50%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #1B262C;
+    border-color: #3282B8;
+    min-width: 300px;
+    color: #BBE1FA;
+}
+
+/* Styling the footer. */
 #copy {
     font-size: 12px;
     width: 1px auto;

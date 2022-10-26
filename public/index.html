@@ -8,12 +8,10 @@
   <link rel="icon" href="/img/icon.ico">
 </head>
 <body> 
-  <div class="header" id="first">
-    <header>
-      <h1 id="title" class="text-center">My Survey Form</h1>
-      <p id="description" class="text-description">Thank you for taking the time to help solve this survey.</p>
-    </header>
-  </div> 
+  <header class="header" id="first">
+    <h1 id="title" class="text-center">My Survey Form</h1>
+    <p id="description" class="text-description">Thank you for taking the time to help solve this survey.</p>
+  </header>
   <div class="container">
       <form action="#" id="survey-form">
         <div class="information">
@@ -25,7 +23,7 @@
             <input type="number" min="11" max="99" id="number" placeholder="Age">
         </div>
         <div class="option-role">
-          <label for="list" id="list">Which option best describes your current role?</label>
+          <label for="dropdown" id="list">Which option best describes your current role?</label>
             <select id="dropdown" name="role" class="form-control" required="">
               <option disabled="" selected="" value="" id="text-disaible">Select current role</option>
               <option value="student">Student</option>
@@ -36,8 +34,8 @@
             </select>
         </div>
         <div class="radio-button">
-          <label class="list-radio" for="definitely">Would you recommend freeCodeCamp to a friend?
-            <input id="definitely" value="definitely" name="recomendation" type="radio"> Definitely</label> 
+          <label class="parragraf" for="">Would you recommend freeCodeCamp to a friend?</label> 
+            <label for="definitely"><input id="definitely" value="definitely" name="recomendation" type="radio"> Definitely</label> 
           <label class="list-radio" for="maybe">
             <input id="maybe" value="maybe" name="recomendation" type="radio"> Maybe</label>  
           <label class="list-radio" for="not-sure">
@@ -84,11 +82,9 @@
         </div>
         <input id="submit" type="submit" value="Submit">
       </form>
-      <div class="footer">
-        <footer>
-            <p id="copy">&copy; No Copyright - All Rights Reserved</p>
-        </footer>
-      </div>
+      <footer class="footer">
+          <p id="copy">&copy; No Copyright - All Rights Reserved</p>
+      </footer>
   </div>
 </body>
 </html>
