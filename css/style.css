@@ -7,34 +7,37 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #1B262C;
+    background: content-box radial-gradient(#121C84, #8278DA);
 }
 
 /* Styling the header. */
 .header {
     font-weight: bold;
     text-align: center;
+    color: #0F4C57; 
 }
 
 .header h1 {
     font-size: 2.9em;
     margin-bottom: 5px;
-    color: #0F4C57; 
 }
 
 .header p {
     font-size: 1.1em;
     margin-bottom: 15px;
-    color: #0F4C57;
 }
 
-/* body */
+/* Styling the container. */
 .container {    
     margin: 1px auto;
     border: 1px solid #3282B8;
     padding: 10px;
     width: 60%;
+    color: #BBE1FA;
+    font-size: 1em;
 }
 
+/* Styling the input element. */
 .information input {
     display: block;
     width: 98%;
@@ -44,23 +47,18 @@ body {
     color: #BBE1FA;
     border-radius: 2px;
     border: #3282B8 solid 2px;
+    margin-bottom: 15px;
 }
 
-.information {
-    text-align: left;
-    color: #BBE1FA;
-    margin: 5px 5px;
-    width: 100%;
-}
-
+/* Styling the select element. */
 .option-role label, 
 .favorite-option label {
     display: block;
     height: 100%;
     width: 100%;
     text-align: left;
-    color: #BBE1FA;
-    padding-bottom: 5px 5px;
+    margin-bottom: 15px;
+    margin-top: 10px;
 }
 
 .option-role select, 
@@ -68,45 +66,46 @@ body {
     display: block;
     width: 100%;
     text-align: left;
-    color: #BBE1FA;
     background-color: #1B262C;
     border-radius: 2px;
     border: #3282B8 solid 2px;
     padding: 0.625em 0.125em;
-}
-
-.parragraf {
-    display: block;
-    width: 100%;
     color: #BBE1FA;
-    margin: 5px 5px;
-    padding: 5px 5px;
 }
 
-.radio-button label {
+/* Styling the paragraph and the radio button. */
+.paragraph {
+    display: block;
+    width: 100%;
+    margin: 15px 0;
+}
+
+.radio-button label,
+.checklist-button label {
     display: block;
     width: 100%;
     padding: 5px 5px;
 }
 
-
+/* Styling the label and textarea. */
 .textarea label {
     display: block;
     font-size: large; 
-    color: #BBE1FA;
     text-align: center;
+    margin: 15px 15px;
 }   
  
 .textarea textarea {
     display: block; 
     background-color: #1B262C;
-    border-radius: #3282B8 solid 2px;
-    color: #BBE1FA;
+    border: #3282B8 solid 2px;
     font-weight: 500;
     width: 100%;
     font-size: 1.1rem;
+    color: #BBE1FA;
 }
 
+/* Styling the submit button. */
 input[type="submit"] {
     display: block;
     width: 50%;
@@ -115,7 +114,7 @@ input[type="submit"] {
     font-size: 1.1rem;
     background-color: #1B262C;
     border-color: #3282B8;
-    min-width: 300px;
+    min-width: 20%;
     color: #BBE1FA;
 }
 
